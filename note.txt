@@ -1,0 +1,102 @@
+ECMAScript(ES)
+
+ECMAScript - European Computer  Manufacturer Association Script Introduced Javascript in 1995
+
+Intially Javascript named as Netscape later it ivolved through various name finally name as Javascript
+
+ES is a standardization for Javascript
+
+ES standardization started from 1997 
+
+ES1 - 1997 
+
+currently we are using ES6/ES7
+
+ES6 - 2015
+ES7 - 2017
+
+Tools 
+
+Nodejs(Any Version)
+Vscode here used
+JSbin online ide 
+Browser - Edge 
+
+
+variable is a space in memory to reserve for something here we can store values
+
+take care
+
+__ numbers would not be wrapped in single or double quotes
+
+__ string value or charcter must be wrapped in single or double quotes
+
+__ if numbers are wrapped in single or double quotes if we are performing addtition instead of 
+operation addtition it will concatenate the values
+
+__ we can't use space in decalaring a variable
+
+__ try to use camel casing in programming to  maintain a standard camelcasing example(fisrtName) 
+if we are joining two words fisrt word should start with small letter and second word should startwith capital
+letter
+
+__ we can declare a varibale only once otherwise syntax error we can change value inside a variable
+
+__ if we declare a constant don't try to change value inside the constant this will result in syntax error
+
+__ in order to maintain standard in arithmetical operations use () brackets other wise more number will make our code complex
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
