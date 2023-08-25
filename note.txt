@@ -76,6 +76,7 @@ console.log(grade)
 
 ------------------------------------------------------02Basics----------------------------------------------------------------
 
+as a first part we are familiaring if else problems 
 
 
 
