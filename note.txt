@@ -29,22 +29,53 @@ take care
 
 __ numbers would not be wrapped in single or double quotes
 
-__ string value or charcter must be wrapped in single or double quotes
+__ string value or character must be wrapped in single or double quotes
 
 __ if numbers are wrapped in single or double quotes if we are performing addtition instead of 
-operation addtition it will concatenate the values
+operation addtition it will concatenate the values in case of integers or numbers
 
 __ we can't use space in decalaring a variable
 
 __ try to use camel casing in programming to  maintain a standard camelcasing example(fisrtName) 
 if we are joining two words fisrt word should start with small letter and second word should startwith capital
-letter
+letter and third word also with capital letter and the remaining all
 
-__ we can declare a varibale only once otherwise syntax error we can change value inside a variable
+__ we can declare a varibale only once multiple times declaration of varibales will result in syntax error 
+we can change value inside a variable
 
 __ if we declare a constant don't try to change value inside the constant this will result in syntax error
 
-__ in order to maintain standard in arithmetical operations use () brackets other wise more number will make our code complex
+__ in order to maintain standard in arithmetical operations use () brackets other wise more number will make our code complex 
+ it will follow a operator precdence in operations
+
+----------------------------------------------null---------------------------------------------------------------------------
+
+if we don't intializea a value inside a variable and if we comile it we will get value is undefined
+
+undefined null and zero both are different concepts in Javascript
+
+don't try to replace undefined with zero and null its a wrong concept use each things properly 
+
+null and undefined are completely different from zero
+
+-----------------------------------------------conditional programming--------------------------------------------------------
+
+we need to execute certain part of statement based on certain events are called conditional programming
+
+boolean values can have only two values mainly true and false 
+
+in Javascript if we assign a condition to a variable we can get true or false based on that condition 
+(
+        
+let marks = 7
+let grade = (marks < 10)
+console.log(grade)
+
+)
+
+
+------------------------------------------------------02Basics----------------------------------------------------------------
+
 
 
 

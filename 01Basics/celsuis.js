@@ -17,4 +17,4 @@ let tempF = 140
 
 let celsius = (tempF - 32 ) * 5/9 
 
-console.log(celsius)
+console.log("Fahrnhiet converrted to celsuis is : "+celsius)
