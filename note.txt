@@ -78,7 +78,40 @@ console.log(grade)
 
 as a first part we are familiaring if else problems 
 
+in case of Javascript if you want to declare something globally then only use var else use let 
+to declare variable
 
+we done a program named to check that letvar.js Please refer that
+
+we can declare variable in Javascript without lets and var declaring variable in such a way is not
+a good thing it is a security flaw in javascript so we should use lets var keyword in jabvascript to 
+declare a varibale refer king.js problem 
+
+
+
+------------------------------------------------console log----------------------------------------------------------------------
+
+
+if we need to perform a js operation inside console command we use backquotes and $ with brackets{}
+with this approach we can perform javascript operation inside thar brackets 
+
+---------------------------------------------------array-------------------------------------------------------------------------
+
+in care of array we can change value while using constant also this because in javascript array is treated as an object in 
+javascript
+
+so in array we can change value in javascript even  if we are using const 
+
+using array shift we can shift an array value at index 0 or we can remove a values 
+
+as in same way using unshift we can add a value at index 0 without loosing current value at index 0
+
+using pop operation we can delete a value in array last element is deleted and 
+in the same way using push operation we insert an element as lat element
+
+middle method in javascript we can delete element using splice keyword in splice first we need to
+mention where the element to be delete start .that we need to mention .how many elements to be deleted if 1 element
+mention it as one and also if we need to insert any values also mention that to see the operation refer arraymethod.js 
 
 
 
