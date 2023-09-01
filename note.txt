@@ -118,6 +118,9 @@ mention it as one and also if we need to insert any values also mention that to 
 
 ------------------------------------------------------Functions in Javascript----------------------------------------------------------
 
+
+--------Intermediate Starts here----------------------------
+
 Functions are certain action which makes our program easy mainly there are two types of Functions
 
 Pre defined Functions function were pre written or available in the compiler
@@ -163,7 +166,9 @@ let guestUser = function(name = 'unName' , courseCount = 0 ){                   
 console.log(guestUser('akhil',3))                                                             |
 ----------------------------------------------------------------------------------------------|
 
-in forEach loop we can directly use function in inside the brackets below is an example which is also called as callback function
+in forEach loop we can directly use function in inside the brackets 
+Functions which doesn't have name is called callback function below is example 
+
 
 ------------------------------------------------------------|
                                                             |
@@ -189,6 +194,7 @@ array in above similar case in can name parameter as our wish
 
 (refer more on trello.js)---------(IMPORTANT)
 
+(for knowing more aspects of refer forloop.js)
 
 
 
