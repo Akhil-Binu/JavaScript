@@ -163,7 +163,38 @@ let guestUser = function(name = 'unName' , courseCount = 0 ){                   
 console.log(guestUser('akhil',3))                                                             |
 ----------------------------------------------------------------------------------------------|
 
-in forEach loop we can directly use function in inside the brackets below is an example 
+in forEach loop we can directly use function in inside the brackets below is an example which is also called as callback function
+
+------------------------------------------------------------|
+                                                            |
+let days = ['mon','tue','wed','thu','fri','sat']            |
+                                                            |
+days.forEach(                                               |
+    function(day){                                          |
+        console.log(day);                                   |
+    }                                                       |
+                                                            |
+)                                                           |
+------output------------------------------------------------|
+mon                                                         |
+tue                                                         |
+wed                                                         |                                                      
+thu                                                         |
+fri                                                         |
+sat                                                         |
+------------------------------------------------------------|
+
+whats we used inside function brackets is called parameter in case of forEach loop while using
+array in above similar case in can name parameter as our wish
+
+(refer more on trello.js)---------(IMPORTANT)
+
+
+
+
+
+
+
 
 
 

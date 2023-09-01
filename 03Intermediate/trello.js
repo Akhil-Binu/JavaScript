@@ -9,8 +9,8 @@ let days = ['mon','tue','wed','thu','fri','sat']
 
 
 days.forEach(
-    function(day){
-        console.log(day);
+    function(day , index){ //here we usese first parametee is value in the array sacond parameter is index
+        console.log(`Starts with ${index} -- ${day}`);
     }
-
 )
+
