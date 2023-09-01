@@ -1,6 +1,6 @@
 const array = ['one','two','three','four','five','six']
 
-// array[1]= 'findit'
+array[1]= 'findit'
 
 array.shift()
 array.unshift('akku')
@@ -12,6 +12,6 @@ array.push('seven')
 
 console.log(array)
 
-array.splice(2,1,'india')
+array.splice(2,2,'india','kerala')
 
 console.log(array)

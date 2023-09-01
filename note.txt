@@ -50,7 +50,7 @@ __ in order to maintain standard in arithmetical operations use () brackets othe
 
 ----------------------------------------------null---------------------------------------------------------------------------
 
-if we don't intializea a value inside a variable and if we comile it we will get value is undefined
+if we don't intializea a value inside a variable and if we compile it we will get value is undefined
 
 undefined null and zero both are different concepts in Javascript
 
@@ -106,8 +106,8 @@ using array shift we can shift an array value at index 0 or we can remove a valu
 
 as in same way using unshift we can add a value at index 0 without loosing current value at index 0
 
-using pop operation we can delete a value in array last element is deleted and 
-in the same way using push operation we insert an element as lat element
+using pop operation we can delete a value in array last element is deleted we can`t make it any other element by using index 
+value and in the same way using push operation we insert an element as last element
 
 middle method in javascript we can delete element using splice keyword in splice first we need to
 mention where the element to be delete start .that we need to mention .how many elements to be deleted if 1 element
@@ -116,25 +116,54 @@ mention it as one and also if we need to insert any values also mention that to 
 
 
 
+------------------------------------------------------Functions in Javascript----------------------------------------------------------
 
+Functions are certain action which makes our program easy mainly there are two types of Functions
 
+Pre defined Functions function were pre written or available in the compiler
+(Ex :  console.log('akkku') here console.log is predefined function which print akku)
 
+User defined functions which written by the user in javascript we can use many ways to write functions
 
-
-
-
+function example 
+--------------------------------------|
+let akku=function(){                  |
+                                      |
+    console.log("akhil")              |
+    console.log("binu")               |
+}                                     |
+akku()                                |
+--------------------------------------|
    
+in function if we need to use variable globally declare inside function brackets if we declare inside
+curly brackets we can use that variable locally only inside that function only
 
 
+function with return value in javascript
+---------------------------------------|
+                                       |
+let MyAdder = function(num1 , num2){   |
+                                       |
+    let result = num1 + num2 ;         |
+    return result;                     |
+}                                      |
+console.log(MyAdder(3,5))              |
+                                       |
+---------------------------------------|
 
 
+in return statement in function we can use print and variable directly with the help of concatenation function
+below is an example we can use default values in javascript if we pass values then new values will be taken for processing
+----------------------------------------------------------------------------------------------|
+let guestUser = function(name = 'unName' , courseCount = 0 ){                                 |
+                                                                                              |
+    return 'hello ' + name + ' you have enrolled in ' + courseCount + ' courses' ;            |
+}                                                                                             |
+                                                                                              |
+console.log(guestUser('akhil',3))                                                             |
+----------------------------------------------------------------------------------------------|
 
-
-
-
-
-
-
+in forEach loop we can directly use function in inside the brackets below is an example 
 
 
 
