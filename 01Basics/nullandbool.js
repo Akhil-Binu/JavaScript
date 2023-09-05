@@ -11,3 +11,11 @@ let marks = 7
 let grade = (marks < 10)
 
 console.log(grade)
+// let grade1 = true
+
+// if(grade1 === grade) {
+//     console.log(grade)
+// }
+
+
+

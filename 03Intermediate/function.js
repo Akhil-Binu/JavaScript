@@ -4,5 +4,7 @@ let sayHello = function(name){
     console.log(`welcome mr ${name}`)
 }
 
+
 sayHello('john')
-console.log(akku)
+
+// console.log(akku)

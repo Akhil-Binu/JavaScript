@@ -41,7 +41,7 @@ if we are joining two words fisrt word should start with small letter and second
 letter and third word also with capital letter and the remaining all
 
 __ we can declare a varibale only once multiple times declaration of varibales will result in syntax error 
-we can change value inside a variable
+we can change value inside a variable multiple times
 
 __ if we declare a constant don't try to change value inside the constant this will result in syntax error
 
@@ -51,6 +51,8 @@ __ in order to maintain standard in arithmetical operations use () brackets othe
 ----------------------------------------------null---------------------------------------------------------------------------
 
 if we don't intializea a value inside a variable and if we compile it we will get value is undefined
+
+undefined means that no value is assigned to that
 
 undefined null and zero both are different concepts in Javascript
 
@@ -73,15 +75,16 @@ console.log(grade)
 
 )
 
+refer 01Basics nullandbool.js
 
 ------------------------------------------------------02Basics----------------------------------------------------------------
 
 as a first part we are familiaring if else problems 
 
 in case of Javascript if you want to declare something globally then only use var else use let 
-to declare variable
+to declare variable(this will work in case of conditi statement not in case of functions )
 
-we done a program named to check that letvar.js Please refer that
+we have done a program named  letvar.js to check that Please refer that
 
 we can declare variable in Javascript without lets and var declaring variable in such a way is not
 a good thing it is a security flaw in javascript so we should use lets var keyword in jabvascript to 
@@ -97,7 +100,7 @@ with this approach we can perform javascript operation inside thar brackets
 
 ---------------------------------------------------array-------------------------------------------------------------------------
 
-in care of array we can change value while using constant also this because in javascript array is treated as an object in 
+in case of array we can change value while using constant also this because in javascript array is treated as an object in 
 javascript
 
 so in array we can change value in javascript even  if we are using const 
@@ -196,8 +199,34 @@ array in above similar case in can name parameter as our wish
 
 (for knowing more aspects of refer forloop.js)
 
+== ( In javascript == refers to if both sides are equal or not)
+
+=== (in javascript === refers to memory which it stored refer equal.js in 04 Intermediate)
+
+if we are creating two objects both ara referenced two different memory locations thats if we check two objects
+=== it will say that its no equal
 
 
+creating objects is shown in myObject.js in 04Intermediate 
+
+as in function we can change value inside a function refer workObject.js 04Intermediate
+
+for best of our knowledge we can write function inside an object 
+
+--------------------------------------This keyword------------------------------------------------------------------------------------
+
+this keyword is used to refrence the entire object refer trelloV3.js in 04Intermediate to know more
+
+we can simply say that this refers to entire properties in an object 
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------|
+proper couldn't be named in same  names   (IMPORTANT)             |
+------------------------------------------------------------------|
 
 
 

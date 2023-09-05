@@ -59,5 +59,8 @@ else{
 }
 
 
+return percentage
 }
 getMyGrade(25,30)
+
+//console.log(getMyGrade(25,40))
