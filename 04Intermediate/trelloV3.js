@@ -21,6 +21,12 @@ let myTodos  = {
 
     }
 ,
+  reset :  function(){
+
+    this.meetDone = 0 
+    this.meetings = 0
+
+  },
 }
 
 // let myTodosTwo  = {
@@ -39,3 +45,8 @@ myTodos.addMeeting(2)
 console.log(myTodos.summary())
 
 console.log(myTodos.meetingDone(1))
+
+let reseted = myTodos.reset()
+
+console.log(myTodos)
+

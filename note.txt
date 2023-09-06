@@ -228,11 +228,18 @@ we can simply say that this refers to entire properties in an object
 proper couldn't be named in same  names   (IMPORTANT)             |
 ------------------------------------------------------------------|
 
+please note that .length is a property and not a function
+
+refer webCheck.js for more
+
+in js we can use many function .toFixed(number) function is used to reduce the values inside the javascript quoates
+
+in javascript math is one of the most powerfull library
+refer mdn docs and dice.js
 
 
 
-
-
+refer trelloV4.js in 04Intermediate it contain lot of things about array in javascript
 
 
 
