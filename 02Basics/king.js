@@ -8,7 +8,7 @@
     // console.log(king)
 
     if(true){
-       var king = 'athul' //if we declare a variable without lets or var this is a big security issue in javascript doon't do that 
+        var king = 'athul' //if we declare a variable without lets or var this is a big security issue in javascript doon't do that 
         console.log(king)
     }
 // }
@@ -18,3 +18,4 @@
 if(true){
     console.log("the second king is : "+ king)
 }
+

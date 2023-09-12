@@ -40,7 +40,7 @@ __ try to use camel casing in programming to  maintain a standard camelcasing ex
 if we are joining two words fisrt word should start with small letter and second word should startwith capital
 letter and third word also with capital letter and the remaining all
 
-__ we can declare a varibale only once multiple times declaration of varibales will result in syntax error 
+__ we can declare a varibale only once multiple times declaration of varibales multiple times will result in syntax error 
 we can change value inside a variable multiple times
 
 __ if we declare a constant don't try to change value inside the constant this will result in syntax error
@@ -82,12 +82,12 @@ refer 01Basics nullandbool.js
 as a first part we are familiaring if else problems 
 
 in case of Javascript if you want to declare something globally then only use var else use let 
-to declare variable(this will work in case of conditi statement not in case of functions )
+to declare variable(this will work in case of conditional statements only not in case of functions )
 
 we have done a program named  letvar.js to check that Please refer that
 
 we can declare variable in Javascript without lets and var declaring variable in such a way is not
-a good thing it is a security flaw in javascript so we should use lets var keyword in jabvascript to 
+a good thing it is a security flaw in javascript so we should use lets var keyword in javascript to 
 declare a varibale refer king.js problem 
 
 
@@ -203,7 +203,7 @@ array in above similar case in can name parameter as our wish
 
 === (in javascript === refers to memory which it stored refer equal.js in 04 Intermediate)
 
-if we are creating two objects both ara referenced two different memory locations thats if we check two objects
+if we are creating two objects both are referenced two different memory locations thats if we check two objects
 === it will say that its no equal
 
 

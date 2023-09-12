@@ -30,12 +30,12 @@ let changeVideoLength = function(myObject){
 
     return{
         formatOne : `time of this video is ${myObject.videoLength+2}` , 
-        formtTwo : `time of this video is ${myObject.videoLength+1}`
+        formatTwo : `time of this video is ${myObject.videoLength+1}`
      
-    }
+    } // we can declare object statement as return in javascript
 
 }  
 
 // we can use return statement as a function which is shown above
 
-console.log(changeVideoLength(myYoutubeVideoOne).formatOne)
+console.log(changeVideoLength(myYoutubeVideoOne).formatTwo)

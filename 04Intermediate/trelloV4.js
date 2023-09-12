@@ -35,18 +35,29 @@ const newTodo = [{
 
 // ---------------------------------------------------Method2---------------------------------------------------------------------
 
-const found = function(todo,title){
-    const search = todo.find(function(value){
-        return value.title.toLowerCase() === title.toLowerCase()
+// const found = function(todo,title){
+//     const search = todo.find(function(value){
+//         return value.title.toLowerCase() === title.toLowerCase()
 
-    })
+//     })
 
-   return search
+//    return search
     
-}
+// }
 
-let print = found(newTodo, 'ajith-Binu')
-console.log(print)
+// let print = found(newTodo, 'ajith-Binu')
+// console.log(print)
 
 
 // ------------------------------------------------------------------------------------------------------------------------------------
+
+const akku = function(todoTitle , value){
+    const search = todoTitle.find(function(value1){
+        return value1.title.toLowerCase() === value.toLowerCase()
+    })
+    return search
+}
+let kit = akku(newTodo,'ajith-binu') 
+
+console.log(kit)
+

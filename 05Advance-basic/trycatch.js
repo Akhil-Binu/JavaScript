@@ -8,7 +8,7 @@ const convertToRs = (dollar) => {
 }
 
 try{
-    const store = convertToRs('five')
+    const store = convertToRs('5')
     console.log(store)
 } catch(error) {
     console.log( error )  // if we have custom message on console.log that will be printed if any error occur

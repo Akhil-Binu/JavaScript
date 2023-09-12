@@ -16,7 +16,7 @@ let myTodos  = {
     },
 
     meetingDone : function(meet){
-        this.meetDone = this.meetDone - meet
+        this.meetDone = this.meetDone + meet
         return `total meeting has been done is ${this.meetDone}`
 
     }
